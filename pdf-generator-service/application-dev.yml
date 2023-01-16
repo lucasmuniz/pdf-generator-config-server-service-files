@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: pdf-generator-service
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+  jackson:
+    deserialization:
+      READ_UNKNOWN_ENUM_VALUES_USING_DEFAULT_VALUE: true
+
+debug: false
+
+logging:
+  file:
+    name: pdf.log
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
