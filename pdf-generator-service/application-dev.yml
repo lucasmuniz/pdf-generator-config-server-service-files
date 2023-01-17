@@ -12,7 +12,7 @@ debug: false
 
 logging:
   file:
-    name: pdf2.log
+    name: pdf.log
 
 management:
   endpoints:
